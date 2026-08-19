@@ -33,6 +33,7 @@
 
 - [Employee Source Kit CLI 从入口到工作流正式课程](employee-source-kit-cli-course.md)
 - [Employee Host Publish 发布链课程：source -> support -> binding](employee-host-publish-pipeline-course.md)
+- [白话讲解员工发布全链路：source -> support -> binding -> live -> manifest -> governance](employee-host-publish-chain-beginners-guide.md)
 - [Employee Source Kit CLI Lesson Contract](employee-source-kit-cli-lesson-contract.md)
 - [Employee Source Kit CLI Lab Contract](employee-source-kit-cli-lab-contract.md)
 - [Employee Source Kit CLI 实验手册](employee-source-kit-cli-lab-manual.md)
