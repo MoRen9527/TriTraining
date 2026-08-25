@@ -8,10 +8,11 @@
 
 ## Current Status
 
-- 当前仓库处于最小模块基线初始化阶段。
-- 当前只完成模块骨架与 training 真源入口初始化。
-- 培训学院产品边界、技术边界和宿主发布链仍需 `CPO` / `CTO` 联审收口。
-- 在真实实现、扩展 README、registry 或模块 agent 落地前，不要把培训学院整体写成已完成平台。
+- 2026-07-17：CPO 产品定位完成（获客轨 MVP 3 课路径 + 内训轨归属 RAndDTrainer/CTO），CEO 确认 Phase 1 L3
+- 2026-07-17：CTO 工程边界确认（获客轨 `docs/product/` ↔ 内训轨 `docs/training/`），`.gitignore` 已补齐
+- Phase 1 L3 启动条件：L0-L2 落稳后方可开工；当前只做定位 + 骨架维护，不开工写业务代码
+- 产品真源：`docs/registry/product-state.md`（CPO 维护）
+- 工程真源：`docs/engineering/README.md`（CTO 维护）
 
 ## Strategy Delegation
 
@@ -26,6 +27,7 @@
 
 ## Update Discipline
 
-- 明确区分“模块 training 真源”“中央 training 聚合包”“宿主侧 published copy”。
+- 明确区分"获客轨"（`docs/product/`，CPO 域）与"内训轨"（`docs/training/`，RAndDTrainer/CTO 域），两轨不混写。
+- 明确区分"模块 training 真源""中央 training 聚合包""宿主侧 published copy"。
 - 禁止把 `TriMetaverse/docs/training/tritraining/` 或 `TriTraining-copilot-host-assets` 写成模块真源。
 - 资料不足时标为 `待初始化`、`待确认` 或 `待联审`。
